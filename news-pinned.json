@@ -1,0 +1,19 @@
+{
+  "_help": "Items here always appear in news.json, even if Google News misses them.",
+  "items": [
+    {
+      "company": "Madison Scientific",
+      "headline": "Madison Scientific closes a $3M seed round, with PAA members participating",
+      "date": "2025-09-08",
+      "source": "CB Insights",
+      "url": "https://www.cbinsights.com/investor/princeton-alumni-angels"
+    },
+    {
+      "company": "Egal",
+      "headline": "Egal raises a $4M Series A",
+      "date": "2024-12-10",
+      "source": "CB Insights",
+      "url": "https://www.cbinsights.com/investor/princeton-alumni-angels"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_help": "One entry per company. 'newsQuery' is what the nightly news job searches for (defaults to the name). Confirm this list with the PAA team before launch.",
+  "items": [
+    { "name": "Madison Scientific", "sector": "Medical devices", "year": "2025", "blurb": "Therapeutic medical device company.", "website": "", "newsQuery": "\"Madison Scientific\"" },
+    { "name": "Egal", "sector": "Consumer products", "year": "2024", "blurb": "Personal care products.", "website": "", "newsQuery": "\"Egal\" pads" },
+    { "name": "XN Health", "sector": "Health tech", "year": "2023", "blurb": "", "website": "", "newsQuery": "\"XN Health\"" },
+    { "name": "Kubik", "sector": "Construction & materials", "year": "", "blurb": "Construction and building materials.", "website": "", "newsQuery": "\"Kubik\" building materials" },
+    { "name": "Wavely", "sector": "", "year": "", "blurb": "", "website": "", "newsQuery": "\"Wavely\" startup" },
+    { "name": "Precision Livestock Technologies", "sector": "Agriculture tech", "year": "", "blurb": "", "website": "", "newsQuery": "\"Precision Livestock Technologies\"" }
+  ]
+}
