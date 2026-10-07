@@ -1,0 +1,27 @@
+name: Refresh news and events
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # every day around 6am Eastern
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh feeds
+        run: python scripts/refresh_feeds.py
+      - name: Commit changes
+        run: |
+          git config user.name "paa-bot"
+          git config user.email "paa-bot@users.noreply.github.com"
+          git add dist/data
+          git diff --cached --quiet || git commit -m "Refresh portfolio news and events"
+          git push
