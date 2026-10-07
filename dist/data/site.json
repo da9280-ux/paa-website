@@ -1,0 +1,49 @@
+{
+  "_help": "Edit this file to change headline numbers, buttons, emails and where each list gets its data. See README.md.",
+  "stats": {
+    "community": "2,000+",
+    "attendees": "500+",
+    "investors": "300+",
+    "pitchEvents": "38",
+    "invested": "$18M+",
+    "companies": "60",
+    "exits": "7",
+    "femaleLed": "38%",
+    "founded": "2018"
+  },
+  "links": {
+    "founderApply": "",
+    "investorJoin": "",
+    "linkedin": "https://www.linkedin.com/company/princeton-alumni-angels/",
+    "facebook": "https://www.facebook.com/princetonalumniangels"
+  },
+  "emails": {
+    "investors": "investors@princetonangels.org",
+    "startups": "startups@princetonangels.org"
+  },
+  "mailingList": {
+    "endpoint": ""
+  },
+  "linkedin": {
+    "mode": "cards"
+  },
+  "sources": {
+    "events": {
+      "json": "data/events.json",
+      "csv": "",
+      "ics": ""
+    },
+    "news": {
+      "json": "data/news.json",
+      "csv": ""
+    },
+    "linkedin": {
+      "json": "data/linkedin.json",
+      "csv": ""
+    },
+    "portfolio": {
+      "json": "data/portfolio.json",
+      "csv": ""
+    }
+  }
+}

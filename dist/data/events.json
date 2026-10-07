@@ -1,0 +1,65 @@
+{
+  "_help": "If sources.events.ics is set in site.json, the nightly job rebuilds this file from that calendar. Otherwise edit here. Dates are ISO with Eastern offset. audience: founders, investors, community. Delete 'sample' once real events are in.",
+  "items": [
+    {
+      "title": "Fall Pitch Night",
+      "date": "2026-10-22T19:00:00-04:00",
+      "location": "Virtual (Zoom)",
+      "audience": [
+        "investors",
+        "founders"
+      ],
+      "description": "Startups pitch, then moderated Q&A.",
+      "url": "",
+      "sample": true
+    },
+    {
+      "title": "Angel Investing 101: How angel groups work",
+      "date": "2026-11-12T12:00:00-05:00",
+      "location": "Virtual (Zoom)",
+      "audience": [
+        "community",
+        "investors"
+      ],
+      "description": "Stages, SAFEs and how diligence works.",
+      "url": "",
+      "sample": true
+    },
+    {
+      "title": "Founder office hours with PAA deal leads",
+      "date": "2026-11-19T17:30:00-05:00",
+      "location": "Virtual",
+      "audience": [
+        "founders",
+        "community"
+      ],
+      "description": "Get feedback on your deck before you apply.",
+      "url": "",
+      "sample": true
+    },
+    {
+      "title": "Winter Pitch Night",
+      "date": "2027-01-28T19:00:00-05:00",
+      "location": "Virtual (Zoom)",
+      "audience": [
+        "investors",
+        "founders"
+      ],
+      "description": "Applications close four weeks before.",
+      "url": "",
+      "sample": true
+    },
+    {
+      "title": "Why join an angel group? Education session",
+      "date": "2026-02-24T19:00:00-05:00",
+      "location": "Virtual",
+      "audience": [
+        "community",
+        "investors"
+      ],
+      "description": "Market update and how PAA members invest.",
+      "url": "",
+      "sample": true
+    }
+  ]
+}

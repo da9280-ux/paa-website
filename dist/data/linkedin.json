@@ -1,0 +1,6 @@
+{
+  "_help": "Paste a post's text and link here, newest first. For 'urn', copy the number from the post's Embed code (urn:li:share:...). Set linkedin.mode to 'embed' in site.json to show full LinkedIn embeds on the live site.",
+  "items": [
+    { "text": "PAA is taking applications from exceptional early-stage startups that are actively raising angel capital. You don't need a Princeton connection to apply.", "url": "https://www.linkedin.com/company/princeton-alumni-angels/", "date": "", "urn": "" }
+  ]
+}
