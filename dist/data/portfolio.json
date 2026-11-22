@@ -1,11 +1,615 @@
 {
-  "_help": "One entry per company. status: active, exited or defunct (defunct companies are hidden). logo: an image path such as assets/img/logos/egal.png, or leave blank to show the name. year: year of PAA's first investment; the homepage shows the 3 most recent. 'newsQuery' is what the nightly news job searches for. Sectors below are a first draft for the PAA team to adjust.",
+  "_help": "One entry per company. status: active, exited or defunct (defunct companies are hidden). logo: an image path such as assets/img/logos/egal.png, or leave blank to show the name. year: year of PAA's first investment; the homepage shows the 3 most recent. 'newsQuery' is what the nightly news job searches for. Sectors below are a first draft for the PAA team to adjust. Source: Angel 101 deck, Feb 2026.",
   "items": [
-    { "name": "Madison Scientific", "sector": "Health & medtech", "year": "2025", "status": "active", "blurb": "Therapeutic medical device company.", "website": "", "logo": "", "newsQuery": "\"Madison Scientific\"" },
-    { "name": "Egal", "sector": "Consumer", "year": "2024", "status": "active", "blurb": "Personal care products.", "website": "", "logo": "", "newsQuery": "\"Egal\" pads" },
-    { "name": "XN Health", "sector": "Health & medtech", "year": "2023", "status": "active", "blurb": "", "website": "", "logo": "", "newsQuery": "\"XN Health\"" },
-    { "name": "Kubik", "sector": "Climate & cleantech", "year": "", "status": "active", "blurb": "Construction and building materials.", "website": "", "logo": "", "newsQuery": "\"Kubik\" building materials" },
-    { "name": "Wavely", "sector": "", "year": "", "status": "active", "blurb": "", "website": "", "logo": "", "newsQuery": "\"Wavely\" startup" },
-    { "name": "Precision Livestock Technologies", "sector": "Agriculture & food", "year": "", "status": "active", "blurb": "", "website": "", "logo": "", "newsQuery": "\"Precision Livestock Technologies\"" }
+    {
+      "name": "Babyation",
+      "sector": "Consumer",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Babyation\""
+    },
+    {
+      "name": "Hue.Ai",
+      "sector": "Software & AI",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Hue.Ai\""
+    },
+    {
+      "name": "J2 Materials",
+      "sector": "Hardware & materials",
+      "year": "2018",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"J2 Materials\""
+    },
+    {
+      "name": "Sandstone Dx",
+      "sector": "Health & medtech",
+      "year": "2018",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Sandstone Dx\""
+    },
+    {
+      "name": "Selected",
+      "sector": "Software & AI",
+      "year": "2018",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Selected\" startup"
+    },
+    {
+      "name": "Spectradyne",
+      "sector": "Hardware & materials",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Spectradyne\""
+    },
+    {
+      "name": "Pocket Naloxone",
+      "sector": "Health & medtech",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Pocket Naloxone\""
+    },
+    {
+      "name": "QSM Diagnostics",
+      "sector": "Health & medtech",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"QSM Diagnostics\""
+    },
+    {
+      "name": "Vysioneer",
+      "sector": "Health & medtech",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Vysioneer\""
+    },
+    {
+      "name": "Surgical Innovation Associates",
+      "sector": "Health & medtech",
+      "year": "2018",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Surgical Innovation Associates\""
+    },
+    {
+      "name": "VICI Fanfest",
+      "sector": "Consumer",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"VICI Fanfest\""
+    },
+    {
+      "name": "Well Traveled",
+      "sector": "",
+      "year": "2018",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Well Traveled\""
+    },
+    {
+      "name": "X-Therma",
+      "sector": "Health & medtech",
+      "year": "2018",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"X-Therma\""
+    },
+    {
+      "name": "Alio",
+      "sector": "Health & medtech",
+      "year": "2019",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Alio\" startup"
+    },
+    {
+      "name": "Perch Interactive",
+      "sector": "Software & AI",
+      "year": "2019",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Perch Interactive\""
+    },
+    {
+      "name": "Precision Livestock Technologies",
+      "sector": "Agriculture & food",
+      "year": "2019",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Precision Livestock Technologies\""
+    },
+    {
+      "name": "We Are The New Farmers",
+      "sector": "Agriculture & food",
+      "year": "2019",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"We Are The New Farmers\""
+    },
+    {
+      "name": "Massive Bio",
+      "sector": "Health & medtech",
+      "year": "2019",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Massive Bio\""
+    },
+    {
+      "name": "NRx Pharma",
+      "sector": "Health & medtech",
+      "year": "2019",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"NRx Pharma\""
+    },
+    {
+      "name": "Schoolytics",
+      "sector": "Software & AI",
+      "year": "2019",
+      "status": "exited",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Schoolytics\""
+    },
+    {
+      "name": "SipScience",
+      "sector": "",
+      "year": "2019",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"SipScience\""
+    },
+    {
+      "name": "Society Nine",
+      "sector": "",
+      "year": "2019",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Society Nine\""
+    },
+    {
+      "name": "Susterre Technologies",
+      "sector": "",
+      "year": "2019",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Susterre Technologies\""
+    },
+    {
+      "name": "Wavely Diagnostics",
+      "sector": "Health & medtech",
+      "year": "2019",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Wavely Diagnostics\""
+    },
+    {
+      "name": "EpiVax Therapeutics",
+      "sector": "Health & medtech",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"EpiVax Therapeutics\""
+    },
+    {
+      "name": "Flux Marine",
+      "sector": "Climate & cleantech",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Flux Marine\""
+    },
+    {
+      "name": "InterPrice Technologies",
+      "sector": "",
+      "year": "2020",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"InterPrice Technologies\""
+    },
+    {
+      "name": "Lottery Now",
+      "sector": "Consumer",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Lottery Now\""
+    },
+    {
+      "name": "Round21",
+      "sector": "",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Round21\" startup"
+    },
+    {
+      "name": "Rymedi",
+      "sector": "Health & medtech",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Rymedi\""
+    },
+    {
+      "name": "Offscrip Health",
+      "sector": "",
+      "year": "2020",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Offscrip Health\""
+    },
+    {
+      "name": "Polycarbin",
+      "sector": "Climate & cleantech",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Polycarbin\""
+    },
+    {
+      "name": "RedLeaf Biologics",
+      "sector": "Health & medtech",
+      "year": "2020",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"RedLeaf Biologics\""
+    },
+    {
+      "name": "Argonaut Genomics",
+      "sector": "Health & medtech",
+      "year": "2021",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Argonaut Genomics\""
+    },
+    {
+      "name": "ElectricFish",
+      "sector": "Climate & cleantech",
+      "year": "2021",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"ElectricFish\""
+    },
+    {
+      "name": "Goldilocks",
+      "sector": "",
+      "year": "2021",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Goldilocks\" startup"
+    },
+    {
+      "name": "Landsdowne Labs",
+      "sector": "",
+      "year": "2021",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Landsdowne Labs\""
+    },
+    {
+      "name": "Forte",
+      "sector": "",
+      "year": "2021",
+      "status": "defunct",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Forte\" startup"
+    },
+    {
+      "name": "Great Lakes Crystal Technologies",
+      "sector": "Hardware & materials",
+      "year": "2021",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Great Lakes Crystal Technologies\""
+    },
+    {
+      "name": "BACCH Labs",
+      "sector": "",
+      "year": "2022",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"BACCH Labs\""
+    },
+    {
+      "name": "Bluewave Technologies",
+      "sector": "",
+      "year": "2022",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Bluewave Technologies\""
+    },
+    {
+      "name": "Ceretype Neuromedicine",
+      "sector": "Health & medtech",
+      "year": "2022",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Ceretype Neuromedicine\""
+    },
+    {
+      "name": "Concarlo Therapeutics",
+      "sector": "Health & medtech",
+      "year": "2022",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Concarlo Therapeutics\""
+    },
+    {
+      "name": "Kubik",
+      "sector": "Climate & cleantech",
+      "year": "2023",
+      "status": "active",
+      "blurb": "Construction and building materials.",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Kubik\" startup"
+    },
+    {
+      "name": "Modern Picnic",
+      "sector": "Consumer",
+      "year": "2023",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Modern Picnic\""
+    },
+    {
+      "name": "PureLi",
+      "sector": "",
+      "year": "2023",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"PureLi\""
+    },
+    {
+      "name": "XN Health",
+      "sector": "Health & medtech",
+      "year": "2023",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"XN Health\""
+    },
+    {
+      "name": "Egal",
+      "sector": "Consumer",
+      "year": "2024",
+      "status": "active",
+      "blurb": "Personal care products.",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Egal\" startup"
+    },
+    {
+      "name": "Integrated Reality Labs",
+      "sector": "",
+      "year": "2024",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Integrated Reality Labs\""
+    },
+    {
+      "name": "Soliome",
+      "sector": "",
+      "year": "2024",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Soliome\" startup"
+    },
+    {
+      "name": "Trellisense",
+      "sector": "Agriculture & food",
+      "year": "2024",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Trellisense\""
+    },
+    {
+      "name": "Limax",
+      "sector": "",
+      "year": "2024",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Limax\" startup"
+    },
+    {
+      "name": "Madison Scientific",
+      "sector": "Health & medtech",
+      "year": "2024",
+      "status": "active",
+      "blurb": "Therapeutic medical device company.",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Madison Scientific\""
+    },
+    {
+      "name": "Measure Studio",
+      "sector": "",
+      "year": "2024",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Measure Studio\""
+    },
+    {
+      "name": "Auggie",
+      "sector": "",
+      "year": "2025",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Auggie\" startup"
+    },
+    {
+      "name": "CarbonBridge",
+      "sector": "",
+      "year": "2025",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"CarbonBridge\""
+    },
+    {
+      "name": "Duet",
+      "sector": "",
+      "year": "2025",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Duet\" startup"
+    },
+    {
+      "name": "Flourish Care",
+      "sector": "",
+      "year": "2025",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Flourish Care\""
+    },
+    {
+      "name": "Green Energy",
+      "sector": "",
+      "year": "2025",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Green Energy\" startup"
+    },
+    {
+      "name": "Elidah",
+      "sector": "Health & medtech",
+      "year": "2026",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Elidah\" startup"
+    },
+    {
+      "name": "Mothership Materials",
+      "sector": "",
+      "year": "2026",
+      "status": "active",
+      "blurb": "",
+      "website": "",
+      "logo": "",
+      "newsQuery": "\"Mothership Materials\""
+    }
   ]
 }
