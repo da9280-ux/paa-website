@@ -131,6 +131,13 @@ p { margin: 0; }
 .photo figcaption { margin-top: 10px; font-size: var(--t-sm); color: var(--ink-2); }
 .page-hero { border-bottom: 1px solid var(--line); }
 @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
+/* Homepage hero: the photo runs the full height of the headline column, top and bottom edges aligned */
+.hero-home .hero-grid { grid-template-columns: 1fr 1.2fr; align-items: stretch; }
+.hero-home .hero-copy { align-content: center; padding-block: 12px; }
+.hero-home .photo { display: flex; flex-direction: column; }
+.hero-home .photo img { flex: 1; height: 100%; min-height: 440px; aspect-ratio: auto; }
+.hero-home .photo figcaption a { color: inherit; }
+@media (max-width: 900px) { .hero-home .hero-grid { grid-template-columns: 1fr; } .hero-home .photo img { min-height: 0; aspect-ratio: 4 / 3; } }
 .hero-copy.narrow { max-width: 760px; }
 
 /* ---------- stat band ---------- */

@@ -33,7 +33,8 @@ HEAD_TAGS = """<title>{title}</title>
 def build():
     partials = {p.stem: p.read_text().rstrip("\n") for p in (SRC / "partials").glob("*.html")}
     # Headline numbers live once, in data/site.json; copy them into the HTML so every page matches.
-    stats = json.loads((DIST / "data" / "site.json").read_text()).get("stats", {})
+    site = json.loads((DIST / "data" / "site.json").read_text())
+    stats, links = site.get("stats", {}), site.get("links", {})
     for page in sorted((SRC / "pages").glob("*.html")):
         text = page.read_text()
         meta, body = text.split("---\n", 2)[1:]
@@ -41,6 +42,9 @@ def build():
         while "{{" in body:  # partials may include other partials
             body = re.sub(r"\{\{(\w+)\}\}", lambda m: partials[m.group(1)], body)
         body = re.sub(r'(data-stat="(\w+)">)[^<]*', lambda m: m.group(1) + stats.get(m.group(2), m.group(0)[len(m.group(1)):]), body)
+        # Buttons such as "Apply for consideration" point at the links set in site.json.
+        body = re.sub(r'href="[^"]*"( data-link="(\w+)")',
+                      lambda m: f'href="{links[m.group(2)]}"{m.group(1)}' if links.get(m.group(2)) else m.group(0), body)
         head = HEAD_TAGS.format(title=fields["title"], desc=fields["description"])
         (DIST / page.name).write_text(HEAD.format(head=head, page=fields["page"], body=body.strip()))
         print("built", page.name)
