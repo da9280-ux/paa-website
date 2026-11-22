@@ -1,6 +1,6 @@
 ---
 title: Investors · Princeton Alumni Angels
-description: For accredited Princeton alumni, families, faculty and staff. Vetted early-stage deals, shared diligence, your call on every deal.
+description: For accredited Princeton alumni, families, faculty and staff. Vetted early-stage deals, shared diligence, and you decide on every deal.
 page: investors
 ---
 {{header}}
@@ -9,8 +9,8 @@ page: investors
     <div class="wrap hero-grid">
       <div class="hero-copy">
         <p class="label">Investors</p>
-        <h1>Invest in startups <em>alongside fellow Tigers.</em></h1>
-        <p class="lede">Vetted deals, shared diligence, and your own call on every investment.</p>
+        <h1>Invest in startups <em>alongside fellow community members.</em></h1>
+        <p class="lede">Vetted deals, shared diligence, and you decide on every deal.</p>
         <div class="actions">
           <a class="btn" href="mailto:investors@princetonangels.org" data-link="investorJoin">Join as an investor</a>
           <a class="btn btn-ghost" href="#how">How deals work</a>
@@ -23,19 +23,19 @@ page: investors
           <div><dt>Princeton alumni</dt><dd>Yes</dd></div>
           <div><dt>Spouses, parents, children</dt><dd>Yes</dd></div>
           <div><dt>Faculty and staff</dt><dd>Yes</dd></div>
-          <div><dt>Accreditation</dt><dd>Required to invest</dd></div>
+          <div><dt>Accreditation{{ai}}</dt><dd>Required to invest</dd></div>
           <div><dt>Obligation to invest</dt><dd>None</dd></div>
         </dl>
-        <p class="small">Not accredited? <a href="community.html">Join the community</a>.</p>
+        <p class="small">Not accredited?{{ai}} <a href="community.html">Join the community</a>.</p>
       </div>
     </div>
   </section>
 
   <section class="band" aria-label="PAA investing by the numbers">
     <div class="wrap stats">
-      <div class="stat"><span class="num" data-stat="investors">300+</span><span>accredited investors</span></div>
+      <div class="stat"><span class="num" data-stat="investors">300+</span><span>accredited investors{{ai}}</span></div>
       <div class="stat"><span class="num" data-stat="invested">$18M+</span><span>invested by members</span></div>
-      <div class="stat"><span class="num" data-stat="companies">60</span><span>startups funded</span></div>
+      <div class="stat"><span class="num" data-stat="companies">60+</span><span>startups funded</span></div>
       <div class="stat"><span class="num" data-stat="exits">7</span><span>exits</span></div>
     </div>
   </section>
@@ -43,15 +43,14 @@ page: investors
   <section class="section" aria-labelledby="why-title">
     <div class="wrap split">
       <div class="stack">
-        <p class="label">Why a group</p>
+        <p class="label">Why invest together</p>
         <h2 id="why-title">Better together than alone.</h2>
       </div>
       <ul class="checklist">
         <li><strong>Better deal flow.</strong> <span>We screen ~2,000 companies so you see the top few.</span></li>
         <li><strong>Shared diligence.</strong> <span>Deal teams split the work.</span></li>
-        <li><strong>Smaller checks.</strong> <span>SPVs let you join with less capital.</span></li>
-        <li><strong>Expert members.</strong> <span>Operators and investors across dozens of sectors.</span></li>
-        <li><strong>New friends.</strong> <span>Tigers from every class year.</span></li>
+        <li><strong>The global Princeton network.</strong> <span>Leverage alumni operators and investors around the world, with expertise across dozens of sectors.</span></li>
+        <li><strong>New friends.</strong> <span>Community members from every class year.</span></li>
       </ul>
     </div>
   </section>
@@ -69,7 +68,7 @@ page: investors
         <li><h4>Pitch night</h4><p>Companies pitch on Zoom and take questions.</p></li>
         <li><h4>Signal interest</h4><p>Fill in a short online form.</p></li>
         <li><h4>Deal team</h4><p>A volunteer deal lead coordinates with the company.</p></li>
-        <li><h4>4–6 weeks</h4><p>2 management calls plus reference calls.</p></li>
+        <li><h4>Diligence</h4><p>The deal team runs diligence over 4–6 weeks.</p></li>
         <li><h4>Decide</h4><p>Commitments are pooled and shared with the founders.</p></li>
       </ol>
     </div>
@@ -80,16 +79,10 @@ page: investors
       <div class="stack">
         <p class="label">Selectivity</p>
         <h2 id="funnel-title">3% make the cut.</h2>
-        <p class="lede">Of ~2,000 companies screened, 60 received investment.</p>
+        <p class="lede">Of ~2,000 companies reviewed, ~60 received investment.</p>
       </div>
       <figure class="funnel" aria-labelledby="f-cap">
-        <p class="label">Companies reviewed, Apr 2018 – Apr 2025</p>
-        <ol>
-          <li><span>Screened</span><span class="num">~2,000</span><span class="track"><span style="--w:100%"></span></span></li>
-          <li><span>Met the team</span><span class="num">~390</span><span class="track"><span style="--w:19.5%"></span></span></li>
-          <li><span>Due diligence</span><span class="num">~140</span><span class="track"><span style="--w:7%"></span></span></li>
-          <li><span>Invested</span><span class="num">60</span><span class="track"><span style="--w:3%"></span></span></li>
-        </ol>
+        {{funnel}}
         <figcaption id="f-cap">Roughly 285 companies reviewed each year.</figcaption>
       </figure>
     </div>
@@ -198,10 +191,10 @@ page: investors
         <h2 id="ifaq">Investor questions.</h2>
       </div>
       <div class="faq">
-        <details><summary>Is there a minimum investment?</summary><p>It depends on each round. Past checks ranged from about $5K to over $100K.</p></details>
+        <details><summary>Is there a minimum investment?</summary><p>It depends on each round. Individual checks typically range from about $5K to $25K+.</p></details>
         <details><summary>Do I have to invest after a pitch night?</summary><p>No. You choose deal by deal.</p></details>
         <details><summary>Does PAA tell me what to invest in?</summary><p>No. We find startups and organize diligence; the decision is yours.</p></details>
-        <details><summary>I'm not accredited. Can I still take part?</summary><p>Yes. Our events and education are open to the whole community.</p></details>
+        <details><summary>I'm not an accredited investor. Can I still take part?</summary><p>Yes. Our events and education are open to the whole community.</p></details>
       </div>
     </div>
   </section>

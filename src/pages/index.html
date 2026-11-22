@@ -12,8 +12,8 @@ page: home
         <h1>Bring capital, expertise or <em>just curiosity.</em> There's a place for you here.</h1>
         <p class="lede">PAA is a network of <span data-stat="community">2,000+</span> Princeton alumni, families, faculty and staff who support startups together.</p>
         <div class="actions">
-          <a class="btn" href="community.html#events">Attend an event</a>
-          <a class="btn btn-ghost" href="founders.html">Apply to present</a>
+          <a class="btn" href="community.html">Attend an event</a>
+          <a class="btn btn-ghost" href="founders.html#apply">Apply for consideration</a>
           <a class="btn btn-ghost" href="investors.html">Invest with us</a>
         </div>
       </div>
@@ -24,25 +24,14 @@ page: home
     </div>
   </section>
 
-  <section class="band" aria-label="PAA by the numbers">
-    <div class="wrap stats">
-      <div class="stat"><span class="num" data-stat="community">2,000+</span><span>global community members</span></div>
-      <div class="stat"><span class="num" data-stat="attendees">500+</span><span>pitch night attendees</span></div>
-      <div class="stat"><span class="num" data-stat="investors">300+</span><span>accredited investors</span></div>
-      <div class="stat"><span class="num" data-stat="pitchEvents">38</span><span>pitch events since 2018</span></div>
-      <div class="stat"><span class="num" data-stat="invested">$18M+</span><span>invested by members</span></div>
-      <div class="stat"><span class="num" data-stat="companies">60</span><span>startups funded</span></div>
-      <div class="stat"><span class="num" data-stat="exits">7</span><span>exits</span></div>
-      <div class="stat"><span class="num" data-stat="femaleLed">38%</span><span>of portfolio companies led by women</span></div>
-    </div>
-  </section>
+  {{stats}}
 
   <section class="section" aria-labelledby="paths-title">
     <div class="wrap">
       <div class="head">
         <div>
           <p class="label">Get involved</p>
-          <h2 id="paths-title">Three ways in. Pick yours.</h2>
+          <h2 id="paths-title">Four ways in. Pick yours.</h2>
         </div>
       </div>
       <div class="paths">
@@ -59,19 +48,28 @@ page: home
           <p class="label">Founders</p>
           <h3>Pitch to 300+ angels.</h3>
           <ul>
-            <li>Pre-seed to Series A, any sector</li>
-            <li>No Princeton tie required</li>
+            <li>Pre-seed and seed, any sector</li>
+            <li>No Princeton affiliation required</li>
           </ul>
-          <a class="btn btn-ghost" href="founders.html">Apply to present</a>
+          <a class="btn btn-ghost" href="founders.html#apply">Apply for consideration</a>
         </article>
         <article class="path">
-          <p class="label">Accredited alumni</p>
-          <h3>Invest alongside Tigers.</h3>
+          <p class="label">Accredited investors{{ai}}</p>
+          <h3>Invest alongside fellow community members.</h3>
           <ul>
             <li>Vetted deals and shared diligence</li>
-            <li>Your call on every deal</li>
+            <li>You decide on every deal</li>
           </ul>
           <a class="btn btn-ghost" href="investors.html">Join as an investor</a>
+        </article>
+        <article class="path">
+          <p class="label">Organizers</p>
+          <h3>Plan or host an event.</h3>
+          <ul>
+            <li>Host a pitch night, panel or meetup in your city</li>
+            <li>Or help plan the next one</li>
+          </ul>
+          <a class="btn btn-ghost" href="mailto:investors@princetonangels.org" data-email-link="investors">Get in touch</a>
         </article>
       </div>
     </div>
@@ -81,7 +79,7 @@ page: home
     <div class="wrap welcome">
       <div class="stack">
         <p class="label">Who's welcome</p>
-        <h2 id="welcome-title">The whole Princeton family.</h2>
+        <h2 id="welcome-title">The whole Princeton community.</h2>
         <p class="lede">Every class year and every background. Events are open whether or not you invest.</p>
       </div>
       <ul class="pills">
@@ -94,7 +92,7 @@ page: home
         <li>Staff &amp; administrators</li>
         <li>First-time investors</li>
         <li>Seasoned angels</li>
-        <li class="hot">Founders, Princeton tie or not</li>
+        <li class="hot">Founders</li>
         <li>Operators &amp; mentors</li>
       </ul>
     </div>
@@ -109,13 +107,7 @@ page: home
         <a class="more" href="investors.html#how">How diligence works</a>
       </div>
       <figure class="funnel" aria-labelledby="funnel-cap">
-        <p class="label">Companies reviewed, Apr 2018 – Apr 2025</p>
-        <ol>
-          <li><span>Screened</span><span class="num">~2,000</span><span class="track"><span style="--w:100%"></span></span></li>
-          <li><span>Met the team</span><span class="num">~390</span><span class="track"><span style="--w:19.5%"></span></span></li>
-          <li><span>Due diligence</span><span class="num">~140</span><span class="track"><span style="--w:7%"></span></span></li>
-          <li><span>Invested</span><span class="num">60</span><span class="track"><span style="--w:3%"></span></span></li>
-        </ol>
+        {{funnel}}
         <figcaption id="funnel-cap"><strong>~3%</strong> of screened companies were funded.</figcaption>
       </figure>
     </div>
@@ -128,8 +120,7 @@ page: home
           <p class="label">Latest</p>
           <h2 id="latest-title">News and events.</h2>
         </div>
-        <a class="btn btn-ghost" href="community.html#events">All events</a>
-      </div>
+              </div>
       <div class="feeds">
         <div class="feed">
           <div class="feed-head"><p class="label">Upcoming events</p></div>
@@ -153,11 +144,11 @@ page: home
         <div>
           <p class="label">Portfolio</p>
           <h2 id="portfolio-title">Companies we've backed.</h2>
-          <p><span data-stat="companies">60</span> startups since 2018. <span data-stat="femaleLed">38%</span> are led by women.</p>
+          <p><span data-stat="companies">60+</span> startups since 2018. <span data-stat="femaleLed">33%+</span> are led by women. Here are the latest.</p>
         </div>
+        <a class="btn btn-ghost" href="portfolio.html">See the full portfolio</a>
       </div>
-      <div class="chips" data-portfolio-filters></div>
-      <ul class="portfolio" data-feed="portfolio"><li class="company"><p class="small">Loading…</p></li></ul>
+      <ul class="portfolio" data-feed="portfolio" data-limit="3"><li class="company"><p class="small">Loading…</p></li></ul>
     </div>
   </section>
 </main>

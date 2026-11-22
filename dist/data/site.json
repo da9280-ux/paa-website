@@ -1,14 +1,13 @@
 {
-  "_help": "Edit this file to change headline numbers, buttons, emails and where each list gets its data. See README.md.",
+  "_help": "Edit this file to change headline numbers, buttons, emails and where each list gets its data. Stats here are copied into every page when the site builds. See README.md.",
   "stats": {
     "community": "2,000+",
-    "attendees": "500+",
     "investors": "300+",
-    "pitchEvents": "38",
+    "companies": "60+",
+    "pitchEvents": "35+",
+    "femaleLed": "33%+",
     "invested": "$18M+",
-    "companies": "60",
     "exits": "7",
-    "femaleLed": "38%",
     "founded": "2018"
   },
   "links": {

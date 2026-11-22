@@ -1,7 +1,7 @@
 """Assemble the static site: shared header, newsletter and footer are injected into each page.
 Run:  python build.py        -> writes dist/*.html (what GitHub Pages serves)
 """
-import pathlib, re
+import json, pathlib, re
 
 ROOT = pathlib.Path(__file__).parent
 SRC, DIST = ROOT / "src", ROOT / "dist"
@@ -31,12 +31,16 @@ HEAD_TAGS = """<title>{title}</title>
 
 
 def build():
-    partials = {p.stem: p.read_text() for p in (SRC / "partials").glob("*.html")}
+    partials = {p.stem: p.read_text().rstrip("\n") for p in (SRC / "partials").glob("*.html")}
+    # Headline numbers live once, in data/site.json; copy them into the HTML so every page matches.
+    stats = json.loads((DIST / "data" / "site.json").read_text()).get("stats", {})
     for page in sorted((SRC / "pages").glob("*.html")):
         text = page.read_text()
         meta, body = text.split("---\n", 2)[1:]
         fields = dict(line.split(": ", 1) for line in meta.strip().splitlines())
-        body = re.sub(r"\{\{(\w+)\}\}", lambda m: partials[m.group(1)], body)
+        while "{{" in body:  # partials may include other partials
+            body = re.sub(r"\{\{(\w+)\}\}", lambda m: partials[m.group(1)], body)
+        body = re.sub(r'(data-stat="(\w+)">)[^<]*', lambda m: m.group(1) + stats.get(m.group(2), m.group(0)[len(m.group(1)):]), body)
         head = HEAD_TAGS.format(title=fields["title"], desc=fields["description"])
         (DIST / page.name).write_text(HEAD.format(head=head, page=fields["page"], body=body.strip()))
         print("built", page.name)

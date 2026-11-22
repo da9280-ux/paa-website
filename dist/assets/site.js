@@ -139,7 +139,26 @@
     }).join("");
   }
 
+  function companyCard(c) {
+    var name = c.logo ? '<img class="logo" src="' + esc(safeUrl(c.logo)) + '" alt="' + esc(c.name) + '" loading="lazy">' : esc(c.name);
+    var mark = c.website ? '<a href="' + esc(safeUrl(c.website)) + '" target="_blank" rel="noopener">' + name + "</a>" : name;
+    var exited = String(c.status).toLowerCase() === "exited";
+    return '<li class="company">' +
+      (c.sector || c.year || exited ? '<p class="meta">' + esc([c.sector, c.year ? "Since " + c.year : ""].filter(Boolean).join(" · ")) +
+        (exited ? ' <span class="badge">Exit</span>' : "") + "</p>" : "") +
+      "<h4>" + mark + "</h4>" +
+      (c.blurb ? "<p>" + esc(c.blurb) + "</p>" : "") +
+      (c.website ? '<a class="more" href="' + esc(safeUrl(c.website)) + '" target="_blank" rel="noopener">Website</a>' : "") + "</li>";
+  }
+
   function renderPortfolio(el, items) {
+    items = items.filter(function (c) { return c.name && String(c.status).toLowerCase() !== "defunct"; });
+    if (el.dataset.limit) {
+      // Homepage teaser: the most recent investments only.
+      el.innerHTML = items.slice().sort(function (a, b) { return (+b.year || 0) - (+a.year || 0); })
+        .slice(0, +el.dataset.limit).map(companyCard).join("");
+      return;
+    }
     var filters = document.querySelector("[data-portfolio-filters]");
     var sectors = [];
     items.forEach(function (c) { if (c.sector && sectors.indexOf(c.sector) < 0) sectors.push(c.sector); });
@@ -147,13 +166,7 @@
     var draw = function (sector) {
       var list = items.filter(function (c) { return !sector || c.sector === sector; })
         .sort(function (a, b) { return a.name.localeCompare(b.name); });
-      el.innerHTML = list.map(function (c) {
-        return '<li class="company">' +
-          (c.sector || c.year ? '<p class="meta">' + esc([c.sector, c.year ? "Since " + c.year : ""].filter(Boolean).join(" · ")) + "</p>" : "") +
-          "<h4>" + esc(c.name) + "</h4>" +
-          (c.blurb ? "<p>" + esc(c.blurb) + "</p>" : "") +
-          (c.website ? '<a class="more" href="' + esc(safeUrl(c.website)) + '">Website</a>' : "") + "</li>";
-      }).join("");
+      el.innerHTML = list.map(companyCard).join("");
     };
     if (filters && sectors.length > 1) {
       filters.innerHTML = ["All"].concat(sectors).map(function (s, i) {
@@ -190,6 +203,9 @@
       var v = emails[el.dataset.email]; if (!v) return;
       if (el.tagName === "A") el.href = "mailto:" + v;
       el.textContent = v;
+    });
+    $$("[data-email-link]").forEach(function (el) {
+      var v = emails[el.dataset.emailLink]; if (v) el.href = "mailto:" + v;
     });
   }
 

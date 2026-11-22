@@ -6,10 +6,11 @@ A fast static site (no Squarespace, no database) that keeps itself current. Cont
 
 | Page | File | Audience |
 |---|---|---|
-| Home | `index.html` | Everyone: stats, three "doors", live news and events, portfolio, mailing list |
+| Home | `index.html` | Everyone: stats, four "ways in", news and events, latest 3 portfolio companies, mailing list |
 | Founders | `founders.html` | What we look for, 5-step process, founder dates, FAQ, apply |
 | Investors | `investors.html` | Eligibility, why a group, diligence process, market data, FAQ, join |
-| Community | `community.html` | Events calendar, four ways to get involved, ecosystem partners, LinkedIn |
+| Community | `community.html` | Events calendar, five ways to get involved, ecosystem partners, LinkedIn |
+| Portfolio | `portfolio.html` | Every active and exited company, with logos, sector filters and Exit badges |
 
 Every page ends with the mailing list signup and the same footer.
 
@@ -19,9 +20,9 @@ Every page ends with the mailing list signup and the same footer.
 |---|---|---|
 | **Portfolio news** | A GitHub Action runs every morning, searches Google News for each company in `data/portfolio.json`, and rewrites `data/news.json`. | None. To keep a story permanently, add it to `data/news-pinned.json`. |
 | **Events** | Put a public calendar link (Google Calendar or Luma `.ics`) in `data/site.json` → `sources.events.ics`. The same nightly job turns it into `data/events.json`. Past events move to "Recent" automatically. | Add events to the calendar you already use. Tag the audience by writing `#founders`, `#investors` or `#community` in the event description. |
-| **Stats, buttons, emails** | `data/site.json` | Change a number once; it updates on every page. |
+| **Stats, buttons, emails** | `data/site.json` | Change a number once; the next publish puts it on every page. |
 | **LinkedIn** | `data/linkedin.json` (paste post text + link), or set `linkedin.mode` to `"embed"` and add the post's `urn` to show LinkedIn's own embed. | About a minute per post. LinkedIn has no free public feed API; if PAA wants zero-touch, a widget service such as SociableKit or Elfsight can replace this list. |
-| **Portfolio** | `data/portfolio.json` | Add a company when a deal closes. |
+| **Portfolio** | `data/portfolio.json` | Add a company when a deal closes. Set `status` to `active`, `exited` (shows an Exit badge) or `defunct` (hidden). Put logo files in `dist/assets/img/logos/` and set `logo` to e.g. `assets/img/logos/egal.png`. |
 
 ### Prefer a spreadsheet?
 Any list can come from a Google Sheet instead of a JSON file. Create a sheet with the same column names as the JSON fields (for events: `title, date, end, location, audience, description, url`), then **File → Share → Publish to web → CSV**, and paste that link into `data/site.json` under `sources.<list>.csv`. The site reads the sheet live, and falls back to the JSON file if the sheet can't be reached.
@@ -38,9 +39,9 @@ Any list can come from a Google Sheet instead of a JSON file. Create a sheet wit
 5. Custom domain: **Settings → Pages → Custom domain** → `www.princetonalumniangels.org`, then update the domain's DNS as GitHub instructs.
 
 ## Editing shared parts
-Header, footer and newsletter live once in `src/partials/`. Page content lives in `src/pages/`. Run `python build.py` (or let the deploy workflow do it) to regenerate `dist/`.
+Header, footer, newsletter, the stats band, the selection funnel and the accredited-investor ⓘ link live once in `src/partials/`. Page content lives in `src/pages/`. Run `python build.py` (or let the deploy workflow do it) to regenerate `dist/`.
 
 ## Before launch
 - Confirm the portfolio list and sectors with the PAA team (the seed list came from public databases).
 - Replace the example events (marked "Example" on the site) or connect the calendar.
-- Imagery: the design uses no photographs of campus buildings. Do not add Nassau Hall or Blair Arch images or the University shield; use portfolio founder photos or event photos PAA owns instead.
+- Imagery: do not use Nassau Hall, Blair Arch or FitzRandolph Gate, or the University shield. Firestone Library is fine. Prefer event photos PAA owns.

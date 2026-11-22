@@ -59,6 +59,8 @@ def company_news(company):
 def refresh_news():
     items = []
     for c in load("portfolio.json")["items"]:
+        if c.get("status") == "defunct":
+            continue
         try:
             items += company_news(c)
         except Exception as e:  # one bad feed shouldn't stop the rest

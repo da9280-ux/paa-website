@@ -1,11 +1,11 @@
 {
-  "_help": "One entry per company. 'newsQuery' is what the nightly news job searches for (defaults to the name). Confirm this list with the PAA team before launch.",
+  "_help": "One entry per company. status: active, exited or defunct (defunct companies are hidden). logo: an image path such as assets/img/logos/egal.png, or leave blank to show the name. year: year of PAA's first investment; the homepage shows the 3 most recent. 'newsQuery' is what the nightly news job searches for. Sectors below are a first draft for the PAA team to adjust.",
   "items": [
-    { "name": "Madison Scientific", "sector": "Medical devices", "year": "2025", "blurb": "Therapeutic medical device company.", "website": "", "newsQuery": "\"Madison Scientific\"" },
-    { "name": "Egal", "sector": "Consumer products", "year": "2024", "blurb": "Personal care products.", "website": "", "newsQuery": "\"Egal\" pads" },
-    { "name": "XN Health", "sector": "Health tech", "year": "2023", "blurb": "", "website": "", "newsQuery": "\"XN Health\"" },
-    { "name": "Kubik", "sector": "Construction & materials", "year": "", "blurb": "Construction and building materials.", "website": "", "newsQuery": "\"Kubik\" building materials" },
-    { "name": "Wavely", "sector": "", "year": "", "blurb": "", "website": "", "newsQuery": "\"Wavely\" startup" },
-    { "name": "Precision Livestock Technologies", "sector": "Agriculture tech", "year": "", "blurb": "", "website": "", "newsQuery": "\"Precision Livestock Technologies\"" }
+    { "name": "Madison Scientific", "sector": "Health & medtech", "year": "2025", "status": "active", "blurb": "Therapeutic medical device company.", "website": "", "logo": "", "newsQuery": "\"Madison Scientific\"" },
+    { "name": "Egal", "sector": "Consumer", "year": "2024", "status": "active", "blurb": "Personal care products.", "website": "", "logo": "", "newsQuery": "\"Egal\" pads" },
+    { "name": "XN Health", "sector": "Health & medtech", "year": "2023", "status": "active", "blurb": "", "website": "", "logo": "", "newsQuery": "\"XN Health\"" },
+    { "name": "Kubik", "sector": "Climate & cleantech", "year": "", "status": "active", "blurb": "Construction and building materials.", "website": "", "logo": "", "newsQuery": "\"Kubik\" building materials" },
+    { "name": "Wavely", "sector": "", "year": "", "status": "active", "blurb": "", "website": "", "logo": "", "newsQuery": "\"Wavely\" startup" },
+    { "name": "Precision Livestock Technologies", "sector": "Agriculture & food", "year": "", "status": "active", "blurb": "", "website": "", "logo": "", "newsQuery": "\"Precision Livestock Technologies\"" }
   ]
 }
