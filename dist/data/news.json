@@ -1,7 +1,14 @@
 {
   "_help": "Rebuilt nightly by scripts/refresh_feeds.py from Google News. Add items to news-pinned.json to keep them permanently.",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "items": [
+    {
+      "company": "Selected",
+      "headline": "Nine Startups Selected for the Pitch Event of LANDCROS Innovation Studios Challenge Europe 2026",
+      "date": "2026-11-24",
+      "source": "Hitachi Construction Machinery Co., Ltd.",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pMGxpQTJ4eG9kWURMaDdfc3NRTXFDTVlaeWJDUnM5OU5pbTk4aWJqT0NadW5uUGR1amw2dDFRaHRpTTYwaEhoenJxc0I3bk9BQ1pQZ1NYSDAxX2ZJRHp5b3lGU0VZYTBhRF90RWM5Y2k3Ry1qTnVualRn?oc=5"
+    },
     {
       "company": "Selected",
       "headline": "10 European Startups Selected for Women Startup Competition 2026 Global Final in Budapest",
@@ -17,18 +24,18 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORjRWdjM5UFhoT2hNeVNoX1pmMFZ4d2FGUVYxWFNtWXJJMGdReDBPdW9udEJHU01zR2UxR0IzNm1vWXZ0d1ozMTBwWnVSMGVHZjZzRi1fTy11R09Zc0h3UlE2VzF2SkNFNUlaSlhnNE9EME1RalYzQU5kS0htT2tqS3hQcm1EWThBUmN2T2ZRcVVpNnYxNnJabXBFN283UnNwbDhBLThZMm0tZjh2YnVwMjNn?oc=5"
     },
     {
-      "company": "Selected",
-      "headline": "Hong Kong Startup MiCells Selected for China Resources-HKSTP Programme as It Advances Private Blood Banking Technology",
-      "date": "2026-11-19",
-      "source": "BioInformant",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZk1YWEtyc1QwWE5fX090TkRVd0trRml1MmFLUEVQTm1tdEx5YlBsUjZzV0dPNlhlWGlwQW1EM0lnSmF3NGtCZl85QThnZHFXZDk5aTZCOUZTN29Md0F5dF8zSDhRWjhnZEIyWkZPSDlBM2pQRHRUOXdaRl83VngyaHFMbnpJckluWTJVOVhpbXh0bWlXUTNKRDMyaDZhQXPSAaQBQVVfeXFMTkdXTXQybGJoTTNpTVkyR2hXc0FzUG0tTmo4NEI2dmVVRlpSRWFRTGJPc0otWnhEeEwzSTFaSXFFY3RsVGZ1b2p1emplWW5ZV3NNREtEdjRIcjFieUdyRTdoYUxSVlFUbTUwMlZWSXVFVDlhOTB4WWc2YnV3ekpSWXotc3czOWozQlFJZTZQX2NHQTVYV1hOcGp0T0JiWnZfT0pSckc?oc=5"
-    },
-    {
       "company": "Massive Bio",
       "headline": "Massive Bio co-founder cautions that AI trial matches do not guarantee enrollment",
       "date": "2026-11-18",
       "source": "Superpower Daily",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDRuUjNLeHlVQzc5aGNjS2JuSUZVZTJCVUJwUGdrcFBtTzBqZmtRM1QxV2R6djcxdlZfSHpmWWRaNHRFcDdlMmFkT1E0X1J0S3JqbHZUYmNxVnNpdG0zUzJNNVgxbW5ULXVQb2VRRDFyQUZvU3ZXcVVGam5QcTB2dllQR1lKalFKZUxDNm5ndTY5VVd2NXpmYXdDdE1nSFNpZ0pHNURPbmlrZW81QktwTHFRLTJnQQ?oc=5"
+    },
+    {
+      "company": "NRx Pharma",
+      "headline": "NRx Pharmaceuticals Q3FY26 Results: Earnings call set for November 17, 2026",
+      "date": "2026-11-17",
+      "source": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVDJiN3dHcGM1YWVyMzFvSWFZeFNFQUZrTnh1RkRreFdGYW9mNXhSTmZzaVpoMGJwdjRSUURFNktIRHg1ZjBXdVF4ODZfOUU0Sy1MY0l1Y04xWDN4VG9BX0dpREtIUFpNZWFWZXktVlBrQVBDSHA2Z1lUejhjNFNfQVBKcFdNaFJBZW83a3VBdmV2eV9SWGtYSDRYcHZ4cHkwZTdLMGpGZUhFS3h2RUxPRHVNTEdkOERCMVR2QkFYRVJLdHE0?oc=5"
     },
     {
       "company": "Duet",
@@ -59,13 +66,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOHEtQTU3OUc2dFJaamhaYzI3Q25RTjRmNkc3XzdtUzMzQi1mYU5HYWlmY2x5TzZLZmxuc25XU09VUHNhMkpMUElwbDItRU9zNEdlY3J4bS1nRHhnNWlhOWI1ZmdldWFJWVZSNWFndU4xMjdiQ0I2RzNwWnpEdl93RVZCbW1WelNOMDg0TUNmZ0lyOXd1SWc?oc=5"
     },
     {
-      "company": "Green Energy",
-      "headline": "Singapore’s climate tech startups ride government’s green energy ambitions",
-      "date": "2026-11-12",
-      "source": "Singapore Economic Development Board (EDB)",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNElXUTFBcWxNZzhHSk5UUm1vVGJ3ZHR6VFJON3pIV094RVJxOUw2MGdBeXR6SnZEYlVBbXVCbUJ5dHBwR25UaWNKUUpsR2ZIMnhDazNkNmtwSnQzV0JoRkhoYUhHUDJqbGVWX2l0Sl96ZEFRZnhqWlpPSzNONDVQa1Jaa1gzeVFBdWttWVdrRUJ3SjNmVUpFQXk5ZnR3c0xuemRKcERoeFduNzNBNHQyZkpZZ09GNGpJ?oc=5"
-    },
-    {
       "company": "Auggie",
       "headline": "Parenting Startup Auggie Profitable After $2.6 Million In Funding",
       "date": "2026-11-11",
@@ -81,10 +81,10 @@
     },
     {
       "company": "Massive Bio",
-      "headline": "Massive Bio and Global Leadership in Oncology & Wellness (GLOW) A",
+      "headline": "Massive Bio and Global Leadership in Oncology & Wellness (GLOW) Announce Partnership to Expand Access to Clinical Trial Information for Patients and Caregivers",
       "date": "2026-11-02",
-      "source": "The National Law Review",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc3h0ZFU5UGI1czFxa3Q3czk4NWRNY2FZZzlUc18ybXF1YkJkQlVlTkViLWk4ME9VdjFXYXhsSnYzQW9UVnBKdnAwYXgySFpzUGFwaEdaN29pV0dKaXE5WUpsaEhtbExVbmR5enZoOFU5ZzhxRTU2Y01PMDFJT3YyRzBMdTJwRGZubnVqNzJSZm9hYzk4OEFPeDV5RFhlQTkwNlYxRW9Tby02MlE?oc=5"
+      "source": "Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQYTdHNUlJZThWYkNHMlNhYWcta3RjRW1FVS1yeWhUbzRidjJBblVFdlFOekU5UVl0SnlPZ1FSQnZmanpPOXNfTEU3b3MyUkgtU1daOEQxSS1FVkxpMXFPMDVYVkV4dEVpQmJacEtrSk5yREtIakZhNkNFbGdENGN0TThSMW53bFV5S0t4ZEsycE1WejNJZTg1ZW5IS21LQTloYThfaDJOOW1mSEw4R2pnOTJQY3hPZm9QNzFfZHFuM0pHQjFZZ3FVdjl5NUpuWVNXWEljWjdEMXU0bm9BMlFQaUswZkxkNk50ZDFCT3BkeHhpWlJrazVOa2ZkVC1YU0JZRW1fZU1ieW5Hd1hiSzhxeUxHc05KeVdFUzZSX1VmeHFmQ0hQUkg4UmhsYmJjN3YzTHlkUXdBcw?oc=5"
     },
     {
       "company": "Lottery Now",
@@ -137,10 +137,10 @@
     },
     {
       "company": "Green Energy",
-      "headline": "NGE Green Energy Is Building Beyond Solar Projects: How Sudharman Ezhil Is Addressing India’s Renewable Energy Infrastructure Challenges",
-      "date": "2026-10-17",
-      "source": "Indian Startup Times",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPeWtRS3kzNDdiSDQ1blpGQnpadGVxVzZkS3dzWExpb1dKcDZWQk1vYmdGbk16dDBLRDVIZzFiN0JVRUF3OGZaaDB5aHRhWUtNb2Y1RDZobjhmclhHRTVpQUp5Y3lxTmNEZWRlRG1YR3JtdHcwTy15MDdwMUQxcFdyakJ4T0tsM1NBbFppVElNbzNTRW5TSTlMbDF0c2dEdlpOQndBZDh1NU1EUmp2ay0zT3o2Rmp3SnJ6b2dXcmcybko5VXRfX1RYQkRlRVUwT05uS0M3Q21QSy1lRkh0SU1ULXZTWUtNTUVfMXVkTGRId1c3amNGQVV6ZTBCVDhJR0d5ZUd6V1JOcXpBanpvdlE?oc=5"
+      "headline": "Singapore's climate tech startups ride government's green energy ambitions",
+      "date": "2026-10-13",
+      "source": "Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZlJVMndoTXBxbGpCamZtNDRFMmFGRDYxWGtvUTRnTzY5WVY4XzlPcU4yd3Z1OU1mM1dBaUpSX2VxZFJlUUpaNG9DVXEwWkVFWVU0WHlxZGwyWkFYX1YwQlFTbnE5VWhtYl9seHFTdnloOTZVVFExV3BiSmRBZkdBZnk0SkJFbTJlS0hyUGlSS1ZXN0ZRd0tCYzY3d0dpZzdjVktrcUxlVE5CUjNTZUpYdl9nelhERHlCN1V0OQ?oc=5"
     },
     {
       "company": "Flux Marine",
@@ -164,13 +164,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdllSTk10YTZJUDI4ZW9rRnB1cjhMUmJ5cUNFZnlxNzJqcWFLU2d2TXFKQ2tQSlB2a1FaSGRBdGVsVm4ydnJnNkJWckNNajcxaEhaa212aWVvQWpjUGxyeVc0ZG1TaTVENUtFVDZNNVlLR21FWFh1bkJkMnJ6aGlvTlhPOUtsam5BQ0JWUUpUNUs1elBmNV94Q0VtczFrMU4xcVE?oc=5"
     },
     {
-      "company": "Green Energy",
-      "headline": "SRCC Marks Centenary As PM Modi Visits; Higher Education, Startup Growth & Green Energy Highlighted - India Today",
-      "date": "2026-09-05",
-      "source": "India Today",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTWxSQlcwZTlSc092LWQ5QlBZb29FRzVDQXZHUkkzX19KNHVuck9aaGRfS01BeGVEaTVRZlo2SzJuSGN3R01vVGQyN0pLM1FFZk53bmVCSjBwVlZ2MmlKZktQZk4xUmt5QTcxbk4wQTk4a1hNR1ZBdWdHdG9nVEZ5QzgwY0JReExwMW40WjVpMmkzRXppN19QNDdEZmZpMVNZVEktcGlHOTRFbFI1TDZrR0NyMzctdERoYm8zckxpblhKUDQ3RW1pV2pDYnBlMTZqeHZiOUlwYlJtMTBKeVRUQzdCR0Z4Zm8zNXFZSm130gHzAUFVX3lxTE5JWXlqOXZoSmJzU2o3dkU0RllJSXJXajlFQVdGYjhId3Mzc2lRaFM1RmRsZE4yNjRiQXlGdzl1Vk1FY2wydHRISHBYR3FwVjlpRFVUckVieW1HSVcwd2NVWGRXYWJvYXoyVWZKeUZQaDBqRnJaTkJBVGpDa0F2eDVjVnBfUWhRY0QyMkZVOHpQWlJaWjZsX2xxU0wxcklSQmJqaFJ5X0k1b00zU1RKb3piLW9LWk0yOVpYaDh0dU5NSDYtYkFTa0lrSkx5N1IzdkRjQUoyVEZtV1FXTzk4VGt0ZllRSU5vS09aTmZHcmN1aElGVQ?oc=5"
-    },
-    {
       "company": "Modern Picnic",
       "headline": "Modern Picnic: Here's What Happened After Shark Tank",
       "date": "2026-08-30",
@@ -192,13 +185,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFhueEw1a3h1Z0dHTDB1dDVQbjFVVHZDRmZGNWNxSzh3RUo5OWtSNnJ5VGpyNjc5Tk9NRTFaNnYwS1pwX05USVVhQVVUMDV3OVItMzExRVBmWHFjanMwYm1aWFZ1TGN0b0FvSWdkOWZSUE5JWURZMW4zWndBTWN0YTctcjdOc3pEdDYydl9kQlktM240TFZuR0dLaE5HUW9N0gGwAUFVX3lxTE5RRE1xT2hUMjE3aGJrcE5oa0lLZVA1WnVTVjRBdEFRVjJGN1F6N184R05wQ1dlQllsY0hhQmYxdUJLQllERkItTXZCUzlkam5HUThwNkVuc0pZX29qUWFpSWdnXzA3Njg3a3RGakw2RlhLSENmNGdDTGZ5cXVrZXk4cFNNdUp1cHpYODVWVE5Za0VCWUhUSzNPcndVR3ZmTmFqdEwwZFNQUFRIQjlndnlL?oc=5"
     },
     {
-      "company": "NRx Pharma",
-      "headline": "NRx Pharma rises as FDA completes initial review of ketamine product",
-      "date": "2026-08-07",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXJwRUpnVFZBWm05V2dIZVlQQ0JpMnE0S0E0ZlJJRHJqeUpTZEU5NHFnZFVvVGVWaTU4aU5Sbnk3RWkzRzhRRVk0WmNJY0lreEh6bHZNVXhlUFFjbTRXM19ZbzNvRlpWRmZ5S0o2aGs3eU5JeFBMcldpa2dvV0cyRFRxNlFEUQ?oc=5"
-    },
-    {
       "company": "Great Lakes Crystal Technologies",
       "headline": "Great Lakes Crystal Technologies: Advancing diamond tech for next-gen electronics",
       "date": "2026-07-30",
@@ -218,6 +204,13 @@
       "date": "2026-07-07",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTVU1NjJfbkwtdTV5Mlp0NmNTZWZib3RZSGFVelR2NEwtZlhOa3pyVWViMkJrdmtKQ1p6Q0JWRmxIRmVwUk1vaVVhVjRDTE5kZjd1bWJXeGM4NUoxWVl2T2t2OWNSSk5jVHY3MEdHMzNZZzI3NDduUkxYdDR3NGU1SXZ3aUZTLU9RLV9EbA?oc=5"
+    },
+    {
+      "company": "Green Energy",
+      "headline": "This Geothermal Startup Plans To Use Oil Tech For Green Energy",
+      "date": "2026-06-21",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTVl1ZHBnYjF0MFpkRlNRZTNHUUxCSlhnUnk4UUNtYVo4Vmt6OC1WNmpjVEIyWFFYcDQ1enFHQTRVblFKcHpDTERLRXBxRGdxSFR5YkljZ2tMc1pXUU1ZZzVTZTN4azI5bDZIOW1yR2hoSFVQN2lzd2dyb2R4R1RjY1ZXQjBOWDV4THZkTFVpNWQ5LV80ZG5fNmM5ZzU0QUIxbjZacnN2cG5YcFdWLWhKR1RKaDBDSEY4?oc=5"
     },
     {
       "company": "X-Therma",
@@ -253,6 +246,13 @@
       "date": "2026-04-20",
       "source": "Ocean News & Technology",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaVFnTzlmQWxCbVZ6UWRmWTNWTWtNVUNKb2tfV00tZDZxQWR4RGhmNWYxYlFmRXF6VlZDT3diellCbFEzWG0zWlBfMklMem1GMV96eE85dGY0MVB0T3d1QlR6aVVyNmxYQ1c0WWFDcVB1RVptejdRWVhwTEZialNiRTFpNWVNYk5FWkRHMS1mMVVuRDlTYUdiRXFpMkl1MWREalNNSW9VSVRaZWdzeHViWWc5UmpIaTBERzFHY1M1WW0xUmpzdGw5alE0SQ?oc=5"
+    },
+    {
+      "company": "Green Energy",
+      "headline": "Young Innovators in Turkmenistan Present Green Energy Solutions at Startup Competition in Mary",
+      "date": "2026-04-13",
+      "source": "European External Action Service (EEAS)",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNN0haQmtmYTdvNUpNSEhWZ1hpcXI1ZGo1bTlrTUxEbTZyeXJZWnZTLXo2WUdTa0pvVVR6T3dOcnpONjRUUXBzLVhBY0ZXYWxCSkZybkJ6c1Z5bEs0UTUyZVAwZ1RZUE9hYlc2dEJXYkdlVmxPOUcxYTdkOEdTQjk3eUQzandmNGZpQXZFQV9ndnFSVnNlUl9LQzAzYVhMUlFXN3p2Ql8tYV9CcEhremxfZVE4dzZGRjlsdy1KVzRRUlhtZjdRTmhjMnphTUI3SGFJalBUeU14RQ?oc=5"
     },
     {
       "company": "Round21",
