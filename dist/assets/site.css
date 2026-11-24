@@ -292,11 +292,13 @@ p { margin: 0; }
 .badge { display: inline-block; font: 600 0.6875rem/1.4 var(--f-sans); letter-spacing: 0.06em; text-transform: uppercase; background: var(--orange); color: var(--on-orange); border-radius: 3px; padding: 1px 7px; margin-left: 4px; vertical-align: 1px; }
 
 /* ---------- ways ---------- */
-.ways { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 2px solid var(--ink); }
+.ways { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 2px solid var(--ink); }
 .way { padding: 22px 20px 26px 0; display: grid; gap: 10px; align-content: start; grid-template-rows: auto 1fr auto; min-width: 0; }
 .way + .way { padding-left: 20px; border-left: 1px solid var(--line); }
+.way:nth-child(3n+1) { padding-left: 0; border-left: 0; }
+.way:nth-child(n+4) { border-top: 1px solid var(--line); }
 .way p { color: var(--ink-2); font-size: var(--t-sm); }
-@media (max-width: 1000px) { .ways { grid-template-columns: 1fr 1fr; } .way:nth-child(odd) { padding-left: 0; border-left: 0; } .way:nth-child(n+3) { border-top: 1px solid var(--line); } }
+@media (max-width: 1000px) { .ways { grid-template-columns: 1fr 1fr; } .way:nth-child(odd) { padding-left: 0; border-left: 0; } .way:nth-child(even) { padding-left: 20px; border-left: 1px solid var(--line); } .way:nth-child(n+3) { border-top: 1px solid var(--line); } }
 @media (max-width: 600px) { .ways { grid-template-columns: 1fr; } .way, .way + .way { padding: 20px 0; border-left: 0; } .way + .way { border-top: 1px solid var(--line); } }
 
 /* ---------- FAQ ---------- */

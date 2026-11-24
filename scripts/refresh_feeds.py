@@ -59,8 +59,8 @@ def company_news(company):
 def refresh_news():
     items = []
     for c in load("portfolio.json")["items"]:
-        if c.get("status") == "defunct":
-            continue
+        if c.get("status") == "defunct" or not c.get("public"):
+            continue  # only public companies: private names are too ambiguous to search reliably
         try:
             items += company_news(c)
         except Exception as e:  # one bad feed shouldn't stop the rest

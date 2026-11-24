@@ -1,5 +1,5 @@
 {
-  "_help": "One entry per company. status: active, exited or defunct (defunct companies are hidden). logo: an image path such as assets/img/logos/egal.png, or leave blank to show the name. year: year of PAA's first investment; the homepage shows the 3 most recent. 'newsQuery' is what the nightly news job searches for. Sectors below are a first draft for the PAA team to adjust. Source: Angel 101 deck, Feb 2026.",
+  "_help": "One entry per company. status: active, exited or defunct (defunct companies are hidden). logo: an image path such as assets/img/logos/egal.png, or leave blank to show the name. year: year of PAA's first investment; the homepage shows the 3 most recent. public: true means the nightly job searches Google News for it (public companies only; private names are too ambiguous). 'newsQuery' is what the nightly news job searches for. Sectors below are a first draft for the PAA team to adjust. Source: Angel 101 deck, Feb 2026.",
   "items": [
     {
       "name": "Babyation",
@@ -9,7 +9,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Babyation\""
+      "newsQuery": "\"Babyation\"",
+      "public": false
     },
     {
       "name": "Hue.Ai",
@@ -19,7 +20,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Hue.Ai\""
+      "newsQuery": "\"Hue.Ai\"",
+      "public": false
     },
     {
       "name": "J2 Materials",
@@ -29,7 +31,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"J2 Materials\""
+      "newsQuery": "\"J2 Materials\"",
+      "public": false
     },
     {
       "name": "Sandstone Dx",
@@ -39,7 +42,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Sandstone Dx\""
+      "newsQuery": "\"Sandstone Dx\"",
+      "public": false
     },
     {
       "name": "Selected",
@@ -49,7 +53,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Selected\" startup"
+      "newsQuery": "\"Selected\" startup",
+      "public": false
     },
     {
       "name": "Spectradyne",
@@ -59,7 +64,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Spectradyne\""
+      "newsQuery": "\"Spectradyne\"",
+      "public": false
     },
     {
       "name": "Pocket Naloxone",
@@ -69,7 +75,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Pocket Naloxone\""
+      "newsQuery": "\"Pocket Naloxone\"",
+      "public": false
     },
     {
       "name": "QSM Diagnostics",
@@ -79,7 +86,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"QSM Diagnostics\""
+      "newsQuery": "\"QSM Diagnostics\"",
+      "public": false
     },
     {
       "name": "Vysioneer",
@@ -89,7 +97,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Vysioneer\""
+      "newsQuery": "\"Vysioneer\"",
+      "public": false
     },
     {
       "name": "Surgical Innovation Associates",
@@ -99,7 +108,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Surgical Innovation Associates\""
+      "newsQuery": "\"Surgical Innovation Associates\"",
+      "public": false
     },
     {
       "name": "VICI Fanfest",
@@ -109,7 +119,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"VICI Fanfest\""
+      "newsQuery": "\"VICI Fanfest\"",
+      "public": false
     },
     {
       "name": "Well Traveled",
@@ -119,7 +130,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Well Traveled\""
+      "newsQuery": "\"Well Traveled\"",
+      "public": false
     },
     {
       "name": "X-Therma",
@@ -129,7 +141,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"X-Therma\""
+      "newsQuery": "\"X-Therma\"",
+      "public": false
     },
     {
       "name": "Alio",
@@ -139,7 +152,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Alio\" startup"
+      "newsQuery": "\"Alio\" startup",
+      "public": false
     },
     {
       "name": "Perch Interactive",
@@ -149,7 +163,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Perch Interactive\""
+      "newsQuery": "\"Perch Interactive\"",
+      "public": false
     },
     {
       "name": "Precision Livestock Technologies",
@@ -159,7 +174,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Precision Livestock Technologies\""
+      "newsQuery": "\"Precision Livestock Technologies\"",
+      "public": false
     },
     {
       "name": "We Are The New Farmers",
@@ -169,7 +185,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"We Are The New Farmers\""
+      "newsQuery": "\"We Are The New Farmers\"",
+      "public": false
     },
     {
       "name": "Massive Bio",
@@ -179,7 +196,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Massive Bio\""
+      "newsQuery": "\"Massive Bio\"",
+      "public": false
     },
     {
       "name": "NRx Pharma",
@@ -189,7 +207,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"NRx Pharma\""
+      "newsQuery": "\"NRx Pharma\"",
+      "public": true
     },
     {
       "name": "Schoolytics",
@@ -199,7 +218,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Schoolytics\""
+      "newsQuery": "\"Schoolytics\"",
+      "public": false
     },
     {
       "name": "SipScience",
@@ -209,7 +229,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"SipScience\""
+      "newsQuery": "\"SipScience\"",
+      "public": false
     },
     {
       "name": "Society Nine",
@@ -219,7 +240,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Society Nine\""
+      "newsQuery": "\"Society Nine\"",
+      "public": false
     },
     {
       "name": "Susterre Technologies",
@@ -229,7 +251,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Susterre Technologies\""
+      "newsQuery": "\"Susterre Technologies\"",
+      "public": false
     },
     {
       "name": "Wavely Diagnostics",
@@ -239,7 +262,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Wavely Diagnostics\""
+      "newsQuery": "\"Wavely Diagnostics\"",
+      "public": false
     },
     {
       "name": "EpiVax Therapeutics",
@@ -249,7 +273,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"EpiVax Therapeutics\""
+      "newsQuery": "\"EpiVax Therapeutics\"",
+      "public": false
     },
     {
       "name": "Flux Marine",
@@ -259,7 +284,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Flux Marine\""
+      "newsQuery": "\"Flux Marine\"",
+      "public": false
     },
     {
       "name": "InterPrice Technologies",
@@ -269,7 +295,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"InterPrice Technologies\""
+      "newsQuery": "\"InterPrice Technologies\"",
+      "public": false
     },
     {
       "name": "Lottery Now",
@@ -279,7 +306,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Lottery Now\""
+      "newsQuery": "\"Lottery Now\"",
+      "public": false
     },
     {
       "name": "Round21",
@@ -289,7 +317,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Round21\" startup"
+      "newsQuery": "\"Round21\" startup",
+      "public": false
     },
     {
       "name": "Rymedi",
@@ -299,7 +328,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Rymedi\""
+      "newsQuery": "\"Rymedi\"",
+      "public": false
     },
     {
       "name": "Offscrip Health",
@@ -309,7 +339,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Offscrip Health\""
+      "newsQuery": "\"Offscrip Health\"",
+      "public": false
     },
     {
       "name": "Polycarbin",
@@ -319,7 +350,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Polycarbin\""
+      "newsQuery": "\"Polycarbin\"",
+      "public": false
     },
     {
       "name": "RedLeaf Biologics",
@@ -329,7 +361,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"RedLeaf Biologics\""
+      "newsQuery": "\"RedLeaf Biologics\"",
+      "public": false
     },
     {
       "name": "Argonaut Genomics",
@@ -339,7 +372,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Argonaut Genomics\""
+      "newsQuery": "\"Argonaut Genomics\"",
+      "public": false
     },
     {
       "name": "ElectricFish",
@@ -349,7 +383,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"ElectricFish\""
+      "newsQuery": "\"ElectricFish\"",
+      "public": false
     },
     {
       "name": "Goldilocks",
@@ -359,7 +394,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Goldilocks\" startup"
+      "newsQuery": "\"Goldilocks\" startup",
+      "public": false
     },
     {
       "name": "Landsdowne Labs",
@@ -369,7 +405,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Landsdowne Labs\""
+      "newsQuery": "\"Landsdowne Labs\"",
+      "public": false
     },
     {
       "name": "Forte",
@@ -379,7 +416,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Forte\" startup"
+      "newsQuery": "\"Forte\" startup",
+      "public": false
     },
     {
       "name": "Great Lakes Crystal Technologies",
@@ -389,7 +427,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Great Lakes Crystal Technologies\""
+      "newsQuery": "\"Great Lakes Crystal Technologies\"",
+      "public": false
     },
     {
       "name": "BACCH Labs",
@@ -399,7 +438,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"BACCH Labs\""
+      "newsQuery": "\"BACCH Labs\"",
+      "public": false
     },
     {
       "name": "Bluewave Technologies",
@@ -409,7 +449,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Bluewave Technologies\""
+      "newsQuery": "\"Bluewave Technologies\"",
+      "public": false
     },
     {
       "name": "Ceretype Neuromedicine",
@@ -419,7 +460,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Ceretype Neuromedicine\""
+      "newsQuery": "\"Ceretype Neuromedicine\"",
+      "public": false
     },
     {
       "name": "Concarlo Therapeutics",
@@ -429,7 +471,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Concarlo Therapeutics\""
+      "newsQuery": "\"Concarlo Therapeutics\"",
+      "public": false
     },
     {
       "name": "Kubik",
@@ -439,7 +482,8 @@
       "blurb": "Construction and building materials.",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Kubik\" startup"
+      "newsQuery": "\"Kubik\" startup",
+      "public": false
     },
     {
       "name": "Modern Picnic",
@@ -449,7 +493,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Modern Picnic\""
+      "newsQuery": "\"Modern Picnic\"",
+      "public": false
     },
     {
       "name": "PureLi",
@@ -459,7 +504,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"PureLi\""
+      "newsQuery": "\"PureLi\"",
+      "public": false
     },
     {
       "name": "XN Health",
@@ -469,7 +515,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"XN Health\""
+      "newsQuery": "\"XN Health\"",
+      "public": false
     },
     {
       "name": "Egal",
@@ -479,7 +526,8 @@
       "blurb": "Personal care products.",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Egal\" startup"
+      "newsQuery": "\"Egal\" startup",
+      "public": false
     },
     {
       "name": "Integrated Reality Labs",
@@ -489,7 +537,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Integrated Reality Labs\""
+      "newsQuery": "\"Integrated Reality Labs\"",
+      "public": false
     },
     {
       "name": "Soliome",
@@ -499,7 +548,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Soliome\" startup"
+      "newsQuery": "\"Soliome\" startup",
+      "public": false
     },
     {
       "name": "Trellisense",
@@ -509,7 +559,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Trellisense\""
+      "newsQuery": "\"Trellisense\"",
+      "public": false
     },
     {
       "name": "Limax",
@@ -519,7 +570,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Limax\" startup"
+      "newsQuery": "\"Limax\" startup",
+      "public": false
     },
     {
       "name": "Madison Scientific",
@@ -529,7 +581,8 @@
       "blurb": "Therapeutic medical device company.",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Madison Scientific\""
+      "newsQuery": "\"Madison Scientific\"",
+      "public": false
     },
     {
       "name": "Measure Studio",
@@ -539,7 +592,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Measure Studio\""
+      "newsQuery": "\"Measure Studio\"",
+      "public": false
     },
     {
       "name": "Auggie",
@@ -549,7 +603,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Auggie\" startup"
+      "newsQuery": "\"Auggie\" startup",
+      "public": false
     },
     {
       "name": "CarbonBridge",
@@ -559,7 +614,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"CarbonBridge\""
+      "newsQuery": "\"CarbonBridge\"",
+      "public": false
     },
     {
       "name": "Duet",
@@ -569,7 +625,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Duet\" startup"
+      "newsQuery": "\"Duet\" startup",
+      "public": false
     },
     {
       "name": "Flourish Care",
@@ -579,7 +636,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Flourish Care\""
+      "newsQuery": "\"Flourish Care\"",
+      "public": false
     },
     {
       "name": "Green Energy",
@@ -589,7 +647,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Green Energy\" startup"
+      "newsQuery": "\"Green Energy\" startup",
+      "public": false
     },
     {
       "name": "Elidah",
@@ -599,7 +658,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Elidah\" startup"
+      "newsQuery": "\"Elidah\" startup",
+      "public": false
     },
     {
       "name": "Mothership Materials",
@@ -609,7 +669,8 @@
       "blurb": "",
       "website": "",
       "logo": "",
-      "newsQuery": "\"Mothership Materials\""
+      "newsQuery": "\"Mothership Materials\"",
+      "public": false
     }
   ]
 }

@@ -44,4 +44,4 @@ Header, footer, newsletter, the stats band, the selection funnel and the accredi
 ## Before launch
 - Confirm the portfolio list and sectors with the PAA team (the seed list came from public databases).
 - Replace the example events (marked "Example" on the site) or connect the calendar.
-- Imagery: do not use Nassau Hall, Blair Arch or FitzRandolph Gate, or the University shield. Firestone Library is fine. Prefer event photos PAA owns.
+- Imagery: do not use Nassau Hall, Blair Arch or FitzRandolph Gate, or the University shield. Firestone Library is fine. Campus photos come from Princeton's Campus Beauty library (https://princetonprphotos.smugmug.com/Category/Campus-Beauty): free for non-commercial use, credit "Photo: Princeton University, Office of Communications".

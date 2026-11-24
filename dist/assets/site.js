@@ -210,6 +210,26 @@
   }
 
   // ---------- mailing list ----------
+  // Mailchimp: EMAIL and FNAME are Mailchimp's default merge fields; "role" is sent as ROLE if the audience has that field.
+  function mailchimp(endpoint, form) {
+    return new Promise(function (resolve, reject) {
+      var cb = "paaMc" + Date.now(), s = document.createElement("script");
+      var q = ["EMAIL", "email", "FNAME", "name", "ROLE", "role"], params = [];
+      for (var i = 0; i < q.length; i += 2) {
+        var f = form.elements[q[i + 1]];
+        if (f && f.value) params.push(q[i] + "=" + encodeURIComponent(f.value));
+      }
+      window[cb] = function (res) {
+        delete window[cb]; s.remove();
+        // "already subscribed" counts as success for the visitor
+        if (res && (res.result === "success" || /already subscribed/i.test(res.msg || ""))) resolve(); else reject(new Error(res && res.msg));
+      };
+      s.onerror = function () { delete window[cb]; s.remove(); reject(new Error("network")); };
+      s.src = endpoint.replace("/post?", "/post-json?") + "&" + params.join("&") + "&c=" + cb;
+      document.body.appendChild(s);
+    });
+  }
+
   function wireSignup() {
     $$("form[data-signup]").forEach(function (form) {
       var note = form.querySelector("[data-form-note]");
@@ -229,9 +249,10 @@
           return;
         }
         var btn = form.querySelector("button"); btn.disabled = true; btn.textContent = "Subscribing…";
-        fetch(endpoint, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
-          .then(function (r) {
-            if (!r.ok) throw new Error();
+        (/list-manage\.com/.test(endpoint) ? mailchimp(endpoint, form) :
+          fetch(endpoint, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
+            .then(function (r) { if (!r.ok) throw new Error(); }))
+          .then(function () {
             form.reset();
             note.textContent = "You're on the list. Watch your inbox for the next PAA update.";
           })
