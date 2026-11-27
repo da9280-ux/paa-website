@@ -1,7 +1,14 @@
 {
   "_help": "Rebuilt nightly by scripts/refresh_feeds.py from Google News. Add items to news-pinned.json to keep them permanently.",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "items": [
+    {
+      "company": "NRx Pharma",
+      "headline": "NRx Pharmaceuticals Q3FY26 Results: Earnings call set for November 17, 2026",
+      "date": "2026-11-17",
+      "source": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVDJiN3dHcGM1YWVyMzFvSWFZeFNFQUZrTnh1RkRreFdGYW9mNXhSTmZzaVpoMGJwdjRSUURFNktIRHg1ZjBXdVF4ODZfOUU0Sy1MY0l1Y04xWDN4VG9BX0dpREtIUFpNZWFWZXktVlBrQVBDSHA2Z1lUejhjNFNfQVBKcFdNaFJBZW83a3VBdmV2eV9SWGtYSDRYcHZ4cHkwZTdLMGpGZUhFS3h2RUxPRHVNTEdkOERCMVR2QkFYRVJLdHE0?oc=5"
+    },
     {
       "company": "NRx Pharma",
       "headline": "Major FDA Victory; Preservative-Free Ketamine Approved Ahead of November 10 Goal Date as Commercial Launch Opportunity Comes Into Focus for NRx Pharma",
@@ -11,17 +18,10 @@
     },
     {
       "company": "NRx Pharma",
-      "headline": "NRx Pharma rises as FDA completes initial review of ketamine product",
-      "date": "2026-08-07",
+      "headline": "NRx Pharmaceuticals: Promising Ketamine Opportunity In Psychiatry (NASDAQ:NRXP)",
+      "date": "2026-09-14",
       "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXJwRUpnVFZBWm05V2dIZVlQQ0JpMnE0S0E0ZlJJRHJqeUpTZEU5NHFnZFVvVGVWaTU4aU5Sbnk3RWkzRzhRRVk0WmNJY0lreEh6bHZNVXhlUFFjbTRXM19ZbzNvRlpWRmZ5S0o2aGs3eU5JeFBMcldpa2dvV0cyRFRxNlFEUQ?oc=5"
-    },
-    {
-      "company": "NRx Pharma",
-      "headline": "NRx Pharmaceuticals: 'Sell' On ZYESAMI/NRX-101 Failures & Depression Market Uncertainty (NASDAQ:NRXP)",
-      "date": "2026-05-20",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWFQ0Tm9wTndpclJlZnU5R3VzZGxuRFc4aXkzR1dDVDRYTVl0LUVJemdRaTRNeXlkeDdtOWdIclNNNUlySlpUUzFYazBrN19KOUd1ekdUdHVYVW9ZTko0MGdrcjZDZmptcXFram5DSTY5al94WjcwcDNzN0tGNmxFdmF4U1EwOWdaVndQUVRXcl9EWS01WXNpQUJFVWsyLXVFb2pqQk1MaVIzSE55M28ySVMtbnlvUlJjX2RrNlljeE9zTkdv?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS3JZVEVZOUF5ejV0Nlp1OGlkMzBqTWlkc2dzN2pscUZvaXFsTnA5dERwWWRLWUtra25COXBWTUpzUW9WVW5SZlJVMUo2enpjaldTSkxSb1NCZy1jd0xLa1ZjZDZmRnpRVlFZTVRfX2ZDU2ZUSHVNOXU1ZHRNUkwxakdkVVVHLVU5aUtYNEswS0ZGMUFJTF9uOWU3Ymc3MjBpSVBIZWxLVG8?oc=5"
     },
     {
       "company": "Madison Scientific",
